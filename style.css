@@ -388,7 +388,7 @@ h2 {
 /* Mobile Device */
 @media (max-width:992px) {
     .global {
-        padding: 0px 0rem !important;
+        padding: 0px 1rem !important;
     }
 
     /* ----------------- Mobile Header------------ */
@@ -421,8 +421,8 @@ h2 {
     .header-btn a {
         border-bottom-left-radius: 25px !important;
         border-top-right-radius: 25px !important;
-        background-color: #4DD0C4 !important;
-        border: solid 1px #4DD0C4 !important;
+        background-color: #ff45ba !important;
+        border: solid 1px #ff6883 !important;
         font-size: 15px;
         color: #fff;
         padding: 10px 25px;
@@ -431,12 +431,12 @@ h2 {
     .header-btn a:hover,
     .btn-center a:hover {
         background-color: #1C1B1B !important;
-        border: solid 1px #4DD0C4 !important;
+        border: solid 1px #ff6883 !important;
     }
 
     /* -----------------Our Games ------------ */
     .btn-center a {
-        border: solid 1px #31938A;
+        border: solid 1px #ff6883;
         padding: 12px 24px;
         font-size: 15px;
     }
@@ -451,13 +451,13 @@ h2 {
     }
 
     .about-btn a {
-        border: solid 1px #4DD0C4 !important;
+        border: solid 1px #ff6883 !important;
         font-size: 15px;
         padding: 12px 24px;
     }
 
     .about-btn a:hover {
-        border: solid 1px #31938A !important;
+        border: solid 1px #ff6883 !important;
     }
 
     /* ----------careers---------- */
