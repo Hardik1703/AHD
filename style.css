@@ -9,7 +9,7 @@
 }
 
 *::selection {
-    background: #ff6883 !important;
+    background: #ff45ba !important;
     color: #000 !important;
 }
 
@@ -36,7 +36,6 @@ section {
 }
 
 /* End Global */
-
 
 .navbar {
     background: #1c1b1b !important;
