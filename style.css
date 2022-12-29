@@ -217,6 +217,34 @@ h2 {
     font-size: 30px;
 }
 
+/* portfolio */
+.portfolio-heading{
+    margin-bottom: 3rem;
+}
+
+.portfolio-heading h3{
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.portfolio-content{
+    margin-left: 40px;
+}
+.portfolio-content i{
+    margin-right: 10px;
+}
+.portfolio-content p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
 /* ------------------careers------------ */
 .careers-content p {
     word-spacing: 1px;
@@ -340,7 +368,7 @@ h2 {
 /* footer */
 .copyrightColor {
     /* background-color: #9b63e1; */
-    background-image: linear-gradient(#ff45ba,#ff6883);
+    background-image: linear-gradient(#ff45ba, #ff6883);
 }
 
 .links a span {
@@ -457,6 +485,11 @@ h2 {
 
     .about-btn a:hover {
         border: solid 1px #ff6883 !important;
+    }
+
+    /* portfolio */
+    .portfolio-content{
+        margin-left: 20px;
     }
 
     /* ----------careers---------- */
