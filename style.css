@@ -36,6 +36,15 @@ section {
 }
 
 /* End Global */
+/* whatsapp */
+.whatsapp img {
+    width: 70px;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin: 20px;
+    z-index: 1;
+}
 
 .navbar {
     background: #1c1b1b !important;
@@ -218,11 +227,11 @@ h2 {
 }
 
 /* portfolio */
-.portfolio-heading{
+.portfolio-heading {
     margin-bottom: 3rem;
 }
 
-.portfolio-heading h3{
+.portfolio-heading h3 {
     font-weight: 400;
     line-height: 1.4em;
     letter-spacing: 1px;
@@ -231,12 +240,15 @@ h2 {
     font-size: 25px;
     margin-bottom: 20px;
 }
-.portfolio-content{
+
+.portfolio-content {
     margin-left: 40px;
 }
-.portfolio-content i{
+
+.portfolio-content i {
     margin-right: 10px;
 }
+
 .portfolio-content p {
     font-size: 16px;
     font-weight: 100;
@@ -367,7 +379,6 @@ h2 {
 
 /* footer */
 .copyrightColor {
-    /* background-color: #9b63e1; */
     background-image: linear-gradient(#ff45ba, #ff6883);
 }
 
@@ -461,6 +472,11 @@ h2 {
         border: solid 1px #ff6883 !important;
     }
 
+    /* whatsapp */
+    .whatsapp img {
+        display: none;
+    }
+
     /* -----------------Our Games ------------ */
     .btn-center a {
         border: solid 1px #ff6883;
@@ -488,7 +504,7 @@ h2 {
     }
 
     /* portfolio */
-    .portfolio-content{
+    .portfolio-content {
         margin-left: 20px;
     }
 
